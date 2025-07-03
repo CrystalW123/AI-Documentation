@@ -42,3 +42,8 @@ Python 3.11+
 3. **Prepare the dataset**
     
 4. **Run the code**
+
+
+[Original_file](tomato-leaf-disease-detection.ipynb)
+
+[Documented_file](tomato-leaf-disease-detection2.ipynb)
