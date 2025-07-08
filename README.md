@@ -32,16 +32,14 @@ Python 3.11+
 
 ## 🛠️ Installation
 
-1. **Clone this repository:**
+1. **Fork this repository to get a copy on your own account**
 
 2. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-
-3. **Prepare the dataset**
     
-4. **Run the code**
+3. **Run the code**
 
 
 [Original_file](tomato-leaf-disease-detection.ipynb)
