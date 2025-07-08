@@ -47,3 +47,5 @@ Python 3.11+
 [Original_file](tomato-leaf-disease-detection.ipynb)
 
 [Documented_file](tomato-leaf-disease-detection2.ipynb)
+
+> 🔴**The training part of the model in the notebook might require a bigger ram, the dataset is trimmed and hopefully will run on 8gb RAM but if not move to google colab, all you need to do is import the notebook**
