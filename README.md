@@ -55,21 +55,23 @@ While in the activated environment install dependencies
     pip install -r requirements.txt
     ```
 
-5. **Configure your notebook to point to the newly created environment** 
-This by selectin kernel in the notebook at the top right corner in vscode and choose python environments and then the created environment
+6. **Configure your notebook to point to the newly created environment** 
+
+This is by selecting kernel in the notebook at the top right corner while in vscode.
+
+Choose python environments and then the created environment(myenv)
 
 > Allow it to download jupyter/ipykernel when prompted
     
-3. **Run the code**
+7. **Run the code**
+
+📄 How to Run Jupyter Notebook:
+
+In your vscode from inside the jupyter notebook, tomato_leaf_disease_classifier2.ipynb run each cell by **shift + enter** or at the top run the entire code by clicking **run all**
 
 📂 Dataset
 
 This repository includes a sample dataset in the `sample_data/` directory. If you wish to train on the full dataset, download it from [kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf) and place it in `sample_data/` after unzipping.
-
-📄 How to Run
-For Jupyter Notebook:
-
-In your vscode or any other code editor from inside the jupyter notebook tomato_leaf_disease_classifier2.ipynb run each cell by **shift + enter** or at the top run the entire code by clicking **run all**
 
 
 [Original_file](tomato-leaf-disease-detection.ipynb)- the undocumented file
