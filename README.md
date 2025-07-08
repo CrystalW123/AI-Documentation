@@ -33,7 +33,9 @@ Python 3.11+
 
 1. **Fork this repository to get a copy on your own account**
 
+
 2. **Clone repository**
+
 
 3. **Create Conda environment, or a python environment**
 ```bash
@@ -41,6 +43,7 @@ conda create --name myenv python=3.11
 or
 python3.11 -m venv myenv
 ```
+
 4. **Activate your environment**
 ```bash
 conda activate myenv
@@ -49,11 +52,13 @@ Windows - .\myenv\Scripts\Activate
 MacOs - source myenv/bin/activate
 ```
 
+
 5. **Install dependencies:**
 While in the activated environment install dependencies
     ```bash
     pip install -r requirements.txt
     ```
+
 
 6. **Configure your notebook to point to the newly created environment** 
 
@@ -63,11 +68,13 @@ Choose python environments and then the created environment(myenv)
 
 > Allow it to download jupyter/ipykernel when prompted
     
+
 7. **Run the code**
 
 📄 How to Run Jupyter Notebook:
 
 In your vscode from inside the jupyter notebook, tomato_leaf_disease_classifier2.ipynb run each cell by **shift + enter** or at the top run the entire code by clicking **run all**
+
 
 📂 Dataset
 
@@ -78,8 +85,21 @@ This repository includes a sample dataset in the `sample_data/` directory. If yo
 
 [Documented_file](tomato-leaf-disease-detection2.ipynb) - the documented file with code comments
 
-> 🔴**The training part of the model in the notebook might require a bigger ram, the dataset is trimmed and hopefully will run on 8gb RAM but if not move to google colab, all you need to do is import the notebook to google colab**
+
+
+
 
 ℹ️ Glossary
 - Convolutional Neural Network (CNN): A type of deep learning model designed to process and classify images.
 - Data Augmentation: Randomly transforming images (rotating, flipping) to improve model generalization.
+
+
+## EDGE CASES
+
+Before starting NB
+
+> 🔴 The training part of the model in the notebook might require a bigger ram, the dataset is trimmed and will run on 8gb RAM but if not move to [google colab](https://colab.google/), all you need to do is go to new notebook then file, then upload the notebook to google colab, !pip install on code cell any libraries not pre installed by colab like tensorflow, keras and scikit-learn for example 
+```
+!pip install scikit-learn==1.2.0
+```
+and upload the data as well
