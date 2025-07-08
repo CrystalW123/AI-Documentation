@@ -17,7 +17,6 @@ This repository provides:
 - A complete image classification pipeline.
 - Preprocessing steps to load, resize, and normalize images.
 - Data augmentation to improve generalization.
-- A configurable CNN model architecture.
 - Training and validation with performance tracking.
 
 The model outputs a probability distribution across all disease classes, enabling precise identification of plant health issues.
