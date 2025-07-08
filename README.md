@@ -35,10 +35,30 @@ Python 3.11+
 
 2. **Clone repository**
 
-2. **Install dependencies:**
+3. **Create Conda environment, or a python environment**
+```bash
+conda create --name myenv python=3.11
+or
+python3.11 -m venv myenv
+```
+4. **Activate your environment**
+```bash
+conda activate myenv
+or
+Windows - .\myenv\Scripts\Activate
+MacOs - source myenv/bin/activate
+```
+
+5. **Install dependencies:**
+While in the activated environment install dependencies
     ```bash
     pip install -r requirements.txt
     ```
+
+5. **Configure your notebook to point to the newly created environment** 
+This by selectin kernel in the notebook at the top right corner in vscode and choose python environments and then the created environment
+
+> Allow it to download jupyter/ipykernel when prompted
     
 3. **Run the code**
 
