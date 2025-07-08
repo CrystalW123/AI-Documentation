@@ -33,6 +33,8 @@ Python 3.11+
 
 1. **Fork this repository to get a copy on your own account**
 
+2. **Clone repository**
+
 2. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
