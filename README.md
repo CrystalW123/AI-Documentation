@@ -75,6 +75,8 @@ Choose python environments and then the created environment(myenv)
 
 In your vscode from inside the jupyter notebook, tomato_leaf_disease_classifier2.ipynb run each cell by **shift + enter** or at the top run the entire code by clicking **run all**
 
+When running you get a .pkl file which saves the label binarizer (a preprocessing utility often used in machine learning to convert categorical labels into a binary 1 and 0 like dummy variables), it is ignored in the .gitignore file
+
 
 📂 Dataset
 
